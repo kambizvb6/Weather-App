@@ -35,7 +35,7 @@ const getWeatherData = async (type, data) => {
       showModal(json.message);
     }
   } catch (error) {
-    console.log("An error occurred when fetching data.");
+     showModal("An error occurred when fetching data.");
   }
 };
 
